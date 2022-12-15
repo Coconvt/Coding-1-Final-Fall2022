@@ -13,13 +13,17 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="styles.css" />
+
     <title>About</title>
   </head>
-  <body>
+  <body class="about">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Logo</a>
+        <a class="navbar-brand" href="index.html"
+          ><img class="logo" src="img/logo.png" alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,20 +38,54 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">Features</a>
+              <a class="nav-link active" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Pricing</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- content -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="container">
+          <h1>About the Author</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-4">
+          <img src="img/senior-picture.png" alt="" class="about-img" />
+        </div>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="container background">
+          <p>
+            Hi! I'm Colton Moore. I am a senior at Madison Academic. I plan on
+            attending MTSU for college. I have yet to decide if I want to major
+            in computer sciences or music education. Aside from coding and
+            music, I am a huge fan of ducks. My favorite type of duck is the
+            American Pekin.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <a href="https://coconvt.github.io/Coding-1-Final-Fall2022/"
+          >https://coconvt.github.io/Coding-1-Final-Fall2022/</a
+        >
+      </div>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
